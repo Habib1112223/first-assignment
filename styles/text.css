@@ -1,6 +1,11 @@
 /* common shared styles */
+*{
+      /* box-sizing: border-box; */
+      margin: 0;
+      padding: 0;
+}
 body {
-      font-family: Lato;
+      font-family: 'Lato', sans-serif;
 }
 
 /* header session styles */
@@ -16,8 +21,6 @@ body {
       gap: 100px;
       justify-content: space-around;
       padding-left: 150px;
-
-
 }
 
 .title-contain {
@@ -60,22 +63,30 @@ body {
       font-size: 20px;
       font-weight: 800;
       margin-top: 100px;
+      padding-bottom: 10px;
 }
 
 .featurte-description {
       color: rgba(39, 39, 39, 0.60);
       text-align: center;
-      font-size: 18px;
+      font-size: 14px;
       font-weight: 400;
       line-height: 30px;
+      padding: 0px;
 }
 .images-container {
       display: flex;
+      gap: 10px;
 }
 .images-container li {
       list-style: none;
       text-align: center;
-      margin-left: 200px;
+      
+}
+.images-container .second-pic{
+      text-align: center;
+      /* margin-top: 5px; */
+      /* padding-top: 5px; */
 }
 .images {
       background-color: antiquewhite;
@@ -85,6 +96,9 @@ body {
 }
 .parents {
       text-align: center;
+}
+.parents .button{
+      margin-top: 15px;
 }
 
 /*  second section styles */
@@ -138,13 +152,14 @@ body {
 .third-part-description {
       color: rgba(39, 39, 39, 0.60);
       text-align: center;
-      font-size: 18px;
+      font-size: 14px;
       font-weight: 400;
       line-height: 30px;
+      margin-top: 5px;
 }
 .third-container>ul {
       display: flex;
-      padding: 45px 200px;
+      padding: 20px 200px;
 }
 .third-container li,
 img {
